@@ -1,0 +1,48 @@
+*{margin:0;padding:0;}
+body{font-size:12px;font-family:"微软雅黑";color:#666;background: #F6F6F6;}
+.clearboth:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+
+.clear{clear:both;}
+
+/* a 通用class修饰*/
+a{text-decoration: none;}
+a{text-decoration: none;color: #666;cursor: pointer;}
+a:hover{color: red;}
+.white-a{color:#FFFFFF;}
+
+/* ul 通用class修饰*/
+ul li{list-style-type: none;}
+.ul-li-r{list-style-type: none;float: right;}
+.ul-li-l{list-style-type: none;float: left;}
+
+/* float 通用class修饰*/
+.ft-r{float: right;}
+.ft-l{float: left;}
+
+.img-va{vertical-align:text-bottom;}/*图片和文字居中*/
+
+.hover-red:hover{color: red;}
+
+.cr-pr{cursor: pointer;}
+
+.sm-cc-12{color: #CCCCCC;font-size: 12px;}
+.sm-gr-12{color: #19A97B;font-size: 12px;}
+
+.hlf-332{height: 30px;line-height: 30px;font-size: 20px;font-weight: normal;}
+
+.hll-22{height: 20px;line-height: 20px;font-weight: normal;}
+
+/* margin 通用class修饰*/
+.mt-10{margin-top: 10px;}
+.mt-20{margin-top: 20px;}
+.mt-30{margin-top: 30px;}
+.ml-10{margin-left: 10px;}
+.ml-20{margin-left: 20px;}
+.ml-30{margin-left: 30px;}
+.mr-20{margin-right: 20px;}
+
+/*通用 文字内容修饰 */
+.ft-lg-14{font-size: 14px;}
+
+/*通用button的设定*/
+.btn-green {background-color: #45c499;height: 32px;line-height: 32px;padding: 0 15px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;color: #fff;display: inline-block;font-weight: 700;}
